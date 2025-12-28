@@ -1,5 +1,5 @@
 {
-  "name": "opencode-notifier",
+  "name": "@mohak34/opencode-notifier",
   "version": "0.1.0",
   "description": "OpenCode plugin that sends system notifications and plays sounds when permission is needed, generation completes, or errors occur",
   "author": "mohak34",
@@ -14,6 +14,9 @@
   "homepage": "https://github.com/mohak34/opencode-notifier#readme",
   "bugs": {
     "url": "https://github.com/mohak34/opencode-notifier/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist",

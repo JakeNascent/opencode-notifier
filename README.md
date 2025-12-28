@@ -1,4 +1,4 @@
-# opencode-notifier
+# @mohak34/opencode-notifier
 
 OpenCode plugin that plays sounds and sends system notifications when permission is needed, generation completes, or errors occur. Works on macOS, Linux, and Windows.
 
@@ -8,7 +8,7 @@ Add the plugin to your `opencode.json` or `opencode.jsonc`:
 
 ```json
 {
-  "plugin": ["opencode-notifier"]
+  "plugin": ["@mohak34/opencode-notifier"]
 }
 ```
 
