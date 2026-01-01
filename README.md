@@ -8,7 +8,7 @@ Add the plugin to your `opencode.json` or `opencode.jsonc`:
 
 ```json
 {
-  "plugin": ["@mohak34/opencode-notifier"]
+  "plugin": ["@mohak34/opencode-notifier@latest"]
 }
 ```
 
