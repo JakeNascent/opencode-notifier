@@ -36,7 +36,7 @@ export async function sendNotification(
       const escapedMessage = message.replace(/"/g, '\\"')
       const escapedTitle = title.replace(/"/g, '\\"')
       exec(
-        `osascript -e 'display notification "${escapedMessage}" with title "${escapedTitle}"'`,
+        `terminal-notifier -title "${escapedTitle}" -message "${escapedMessage}"`,
         () => {
           resolve()
         }
